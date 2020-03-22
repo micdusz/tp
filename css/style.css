@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'Abel_Regular';
+    src: url('fonts/abel-regular-webfont.eot');
+    src: url('fonts/abel-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/abel-regular-webfont.woff2') format('woff2'), url('fonts/abel-regular-webfont.woff') format('woff'), url('fonts/abel-regular-webfont.ttf') format('truetype'), url('fonts/abel-regular-webfont.svg#abelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Serenity_Regular';
+    src: url('fonts/serenity_script-webfont.eot');
+    src: url('fonts/serenity_script-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/serenity_script-webfont.woff2') format('woff2'), url('fonts/serenity_script-webfont.woff') format('woff'), url('fonts/serenity_script-webfont.ttf') format('truetype'), url('fonts/serenity_script-webfont.svg#serenityregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_condensedbold';
+    src: url('fonts/robotocondensed-bold-webfont.eot');
+    src: url('fonts/robotocondensed-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/robotocondensed-bold-webfont.woff2') format('woff2'), url('fonts/robotocondensed-bold-webfont.woff') format('woff'), url('fonts/robotocondensed-bold-webfont.ttf') format('truetype'), url('fonts/robotocondensed-bold-webfont.svg#roboto_condensedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_condensedlight';
+    src: url('fonts/robotocondensed-light-webfont.eot');
+    src: url('fonts/robotocondensed-light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/robotocondensed-light-webfont.woff2') format('woff2'), url('fonts/robotocondensed-light-webfont.woff') format('woff'), url('fonts/robotocondensed-light-webfont.ttf') format('truetype'), url('fonts/robotocondensed-light-webfont.svg#roboto_condensedlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_condensedregular';
+    src: url('fonts/robotocondensed-regular-webfont.eot');
+    src: url('fonts/robotocondensed-regular-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/robotocondensed-regular-webfont.woff2') format('woff2'), url('fonts/robotocondensed-regular-webfont.woff') format('woff'), url('fonts/robotocondensed-regular-webfont.ttf') format('truetype'), url('fonts/robotocondensed-regular-webfont.svg#roboto_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto_condenseditalic';
+    src: url('fonts/robotocondensed-italic-webfont.eot');
+    src: url('fonts/robotocondensed-italic-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/robotocondensed-italic-webfont.woff2') format('woff2'), url('fonts/robotocondensed-italic-webfont.woff') format('woff'), url('fonts/robotocondensed-italic-webfont.ttf') format('truetype'), url('fonts/robotocondensed-italic-webfont.svg#roboto_condenseditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: wheat;
+    font-family: 'roboto_condensedregular';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    background-color: #000214;
+    height: 39px;
+}
+
+li {
+    float: right;
+    height: 45px;
+    font-family: 'roboto_condensedregular';
+}
+
+li a {
+    color: wheat;
+    text-decoration: none;
+    display: block;
+    padding: 6px 10px;
+    font-size: 20px;
+    background-color: #000214;
+    transition: ease-out 0.2s;
+}
+
+li a:hover {
+    color: #000214;
+    transition: ease-in 0.2s;
+    background-color: wheat;
+}
+
+.sectiontitle {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'roboto_condensedregular';
+    font-size: 40px;
+}
+
+.container {
+    height: 100vh;
+    min-width: 100%;
+}
+
+.tlo {
+    background-image: linear-gradient( rgba(30, 146, 175, 0.3), rgba(103, 166, 182, 0.3)), url(../img/tlo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 94vh;
+}
+
+.start {
+    height: 94vh;
+    width: 49vw;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'roboto_condensedregular';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start a {
+    display: block;
+    padding: 0.25em 0.5em;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 0 10px;
+    color: wheat;
+    text-decoration: none;
+    transition: ease-out 0.2s;
+    background-color: #000214;
+}
+
+.start a:hover {
+    color: #000214;
+    background-color: wheat;
+    transition: ease-in 0.2s;
+}
+
+.lokalizacja {
+    width: 47vw;
+    height: 79vh;
+    float: left;
+    padding: 15px;
+}
+
+.lokalizacja p {
+    padding: 5px 15px;
+    font-size: 25px;
+    margin: 0;
+    text-align: justify;
+}
+
+.kontakt {
+    width: 45vw;
+    height: 79vh;
+    float: left;
+    padding-left: 50px;
+}
+
+.kontakt p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+form input {
+    display: block;
+    margin: 10px 0;
+    width: 400px;
+    font-family: "roboto_condenseditalic";
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+form input[type='textarea'] {
+    height: 250px;
+    text-align: left;
+}
+
+.ad {
+    float: left;
+    height: 79vh;
+    width: 45vw;
+    padding: 15px;
+}
+
+.ad img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    
+}
+.ad p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+button {
+    margin-left: 30px;
+    width: 110px;
+    height: 35px;
+    font-family: "roboto_condensedregular";
+    font-size: 20px;
+}
+.italic{
+    font-family: 'roboto_condenseditalic';
+}
+.gal{
+    float: left;
+    width: 31vw;
+    height: 79vh;
+    margin: 12px;
+}
+.gal img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+footer{
+    background-color: #000214;
+    color: wheat;
+    width: 98vw;
+    height: 5vh;
+    padding: 8px 5px 0 5px;
+}
+.firm{
+    width: 44vw;
+    height: 79vh;
+    float: left;
+    padding: 30px;
+}
+.firm img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.firm p{
+    font-size: 25px;
+}
